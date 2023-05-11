@@ -3,6 +3,7 @@ import User from "./routers/User.js";
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
 import cors from "cors";
+import "dotenv/config";
 export const app = express();
 
 app.use(cors());

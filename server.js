@@ -3,7 +3,7 @@ import { config } from "dotenv";
 import { connectDatabase } from "./config/database.js";
 import cloudinary from "cloudinary";
 
-config({ path: "./config/config.env" });
+// config({ path: "./config/config.env" });
 cloudinary.config({
   cloud_name: process.env.CLOUD_NAME,
   api_key: process.env.CLOUD_API_KEY,
