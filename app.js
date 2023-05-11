@@ -17,3 +17,7 @@ app.use(
 );
 
 app.use("/api/v1", User);
+
+app.get("/", (req, res) => {
+  res.send("Welcome to the Notes Server.");
+});
